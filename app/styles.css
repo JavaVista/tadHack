@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+h2,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+form {
+  font-family: 'Lucida Sans';
+  padding: 2%;
+}
+
+input[type='text'],
+select,
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: 5px solid #ccc;
+  margin-top: 10px;
+  margin-bottom: 18px;
+  background-color: #3cbc8d;
+  color: white;
+  resize: vertical;
+}
+
+img {
+  width: 100%;
+}
+
+.click:hover {
+  background-color: #39833d;
+}
+
+input[type='email'],
+input[type='tel'] {
+  width: 100%;
+  padding: 5px;
+  border: 5px solid #ccc;
+  margin-top: 10px;
+  margin-bottom: 18px;
+  resize: vertical;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  padding: 8px;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 10px;
+  background-color: rgb(220, 250, 250);
+  padding: 15px;
+}
+
+/* Create 2 columns that float next to each other */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.click {
+  background-color: #3cbc8d;
+  color: white;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}

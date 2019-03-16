@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Brunch</title>
+  <link rel="stylesheet" href="/app.css">
+  <script src="/vendor.js"></script>
+  <script src="/app.js"></script>
+  <script>require('initialize');</script>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <h2>Contact Us</h2>
+      <p>
+        Grab a glass of champagne and check out our website, or leave us a
+        message:
+      </p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="alcohol-Carrion_12.jpg" alt="Glasses of champagne" />
+      </div>
+      <div class="column">
+        <form action="#" method="post">
+          <label for="firstName">First Name:</label>
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="Your name.."
+          />
+          <label for="lastName">Last Name:</label>
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            placeholder="Your last name..."
+          /><br />
+          <label for="email">eMail:</label>
+          <input type="email" name="email" id="email" /><br />
+          <label for="phone">Phone #:</label>
+          <input type="tel" name="phone" id="phone" /><br />
+          <label for="country">Your country?</label>
+          <select>
+            <option value="usa">USA</option>
+            <option value="mexico">Mexico</option>
+            <option value="canada">Canada</option>
+            <option value="england">England</option>
+          </select>
+          <label for="comment">Comment:</label>
+          <textarea
+            name="comment"
+            id="comment"
+            style="height: 170px"
+            placeholder="Write something..."
+          ></textarea>
+          <button type="submit" value="Submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+        <a href="https://medium.com/">
+          <button class="click">Visit Us</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
