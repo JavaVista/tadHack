@@ -12,7 +12,7 @@ function postData(event) {
   fetch('https://i-approve-tadhack.herokuapp.com/approvals/api', {
     method: 'POST',
     headers: new Headers(),
-    body: JSON.stringify({ tittle: tittle, body: body })
+    body: JSON.stringify({ 'approval[media_url]': tittle, 'approval[approver_number]': '14074531225' })
   })
     .then(res => res.json())
     .then(data => console.log(data))
