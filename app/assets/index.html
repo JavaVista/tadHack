@@ -7,19 +7,20 @@
   <script src="/vendor.js"></script>
   <script src="/app.js"></script>
   <script>require('initialize');</script>
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/waltograph" type="text/css"/>
 </head>
 <body>
   <div class="container">
     <div>
-      <h2>Contact Us</h2>
+      <h1>IApprove</h1>
+      <h2>Disney's Cast Member Approval System</h2>
       <p>
-        Grab a glass of champagne and check out our website, or leave us a
-        message:
+        Upload you image for approval
       </p>
     </div>
     <div class="row">
       <div class="column">
-        <img src="alcohol-Carrion_12.jpg" alt="Submit you image for Approval" />
+        <img src="elsalookalike.png" alt="Submit you image for Approval" height="200"/>
       </div>
       <div class="column">
         <form  id="form">
@@ -41,14 +42,7 @@
           <input type="email" name="email" id="email" /><br />
           <label for="phone">Phone #:</label>
           <input type="tel" name="phone" id="phone" /><br />
-          <label for="country">Your country?</label>
-          <select>
-            <option value="usa">USA</option>
-            <option value="mexico">Mexico</option>
-            <option value="canada">Canada</option>
-            <option value="england">England</option>
-          </select>
-          <label for="comment">Comment:</label>
+          <input type="file" onchange="previewFile()"><br>
           <textarea
             name="comment"
             id="comment"
