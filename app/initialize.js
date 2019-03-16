@@ -18,5 +18,5 @@ function postData(event) {
     .then(data => console.log(data))
     .catch(err => console.log('error', err));
 }
-console.log('Initialized app, testing');
+console.log('Initialized app, this is my test');
 });
