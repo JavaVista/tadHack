@@ -33,6 +33,7 @@
     <div class="row">
       <div class="column smartphone">
         <img
+          id="output"
           src="elsalookalike.png"
           alt="Submit you image for Approval"
           height="200"
@@ -60,7 +61,7 @@
           <input type="tel" name="phone" id="phone" /><br />
           <label for="url">URL:</label>
           <input type="url" name="url" id="url" />
-          <input type="file" onchange="previewFile()" /><br />
+          <input type="file" onchange="previewFile(e)" /><br />
           <textarea
             name="comment"
             id="comment"

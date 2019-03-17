@@ -1,6 +1,10 @@
 body {
   font-family: 'Comic Sans MS';
 }
+h1 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
 
 #header {
   display: flex;
