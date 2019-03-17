@@ -6,11 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
   function postData(event) {
     //event.preventDefault();
     let body = document.getElementById('form').value;
-    fetch('http://ed42799e.ngrok.io/approvals/api', {
+    fetch('http://i-approve-tadhack.herokuapp.com/approvals/api', {
       method: 'POST',
       headers: new Headers({ 'Content-Type': 'application/json' }),
       body: JSON.stringify({
-        approval: { media_url: body,
+        approval: { media_url: 'https://frosty-euler-6cd8cb.netlify.com/assets/elsa-cosplay.jpg',
            approver_number: '14074531225'
            }
       })
