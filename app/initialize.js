@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
       method: 'POST',
       headers: new Headers({ 'Content-Type': 'application/json' }),
       body: JSON.stringify({
-        approval: { media_url: 'https://frosty-euler-6cd8cb.netlify.com/assets/elsa-cosplay.jpg',
+        approval: { media_url: 'https://frosty-euler-6cd8cb.netlify.com/elsa-cosplay.jpg',
            approver_number: '14074531225'
            }
       })

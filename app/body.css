@@ -12,12 +12,15 @@ h1 {
   padding: 20px 50px 31px 10px;
   align-items: flex-end;
   font-family: Arial;
+  font-size: 50%;
 }
 
 #logo {
   height: 80px;
   width: 80px;
   margin: 0;
+  size: 75;
+
 }
 
 /* The device with borders */
