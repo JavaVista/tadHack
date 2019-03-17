@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
   <title>IApprove</title>
-  <link rel="stylesheet" href="/app.css">
+  <link rel="stylesheet" href="/app.css" />
   <script src="/vendor.js"></script>
   <script src="/app.js"></script>
-  <script>require('initialize');</script>
-  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/waltograph" type="text/css"/>
+  <script>
+    require('initialize');
+  </script>
+  <link
+    rel="stylesheet"
+    media="screen"
+    href="https://fontlibrary.org/face/waltograph"
+    type="text/css"
+  />
 </head>
 <body>
   <div class="container">
+    <div id="header">
+      <div id="logo">
+        <img src="create-approval.png" alt="logo">
+        <h1>IApprove</h1>
+      </div>
+    </div>
     <div>
-      <h1>IApprove</h1>
       <h2>Disney's Cast Member Approval System</h2>
       <p>
-        Upload you image for approval
+        Upload your image for approval
       </p>
     </div>
     <div class="row">
-      <div class="column">
-        <img src="elsalookalike.png" alt="Submit you image for Approval" height="200"/>
+      <div class="column smartphone">
+        <img
+          src="elsalookalike.png"
+          alt="Submit you image for Approval"
+          height="200"
+        />
       </div>
       <div class="column">
-        <form  id="form">
+        <form id="form">
           <label for="firstName">First Name:</label>
           <input
             type="text"
@@ -42,7 +58,9 @@
           <input type="email" name="email" id="email" /><br />
           <label for="phone">Phone #:</label>
           <input type="tel" name="phone" id="phone" /><br />
-          <input type="file" onchange="previewFile()"><br>
+          <label for="url">URL:</label>
+          <input type="url" name="url" id="url" />
+          <input type="file" onchange="previewFile()" /><br />
           <textarea
             name="comment"
             id="comment"
@@ -52,8 +70,10 @@
           <button type="submit" value="Submit">Submit</button>
           <button type="reset">Reset</button>
         </form>
-        <a href="https://medium.com/">
-          <button class="click">Visit Us</button>
+        <a
+          href="https://login.myid.disney.com/login?resume=/idp/v5Z0j/resumeSAML20/idp/SSO.ping&spentity=wdpr.service-now.com"
+        >
+          <button class="click">Help</button>
         </a>
         <script src="app.js"></script>
       </div>
