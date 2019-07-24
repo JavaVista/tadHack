@@ -9,17 +9,12 @@ Prototype SMS Multimedia Approval System
 
 ### Features
 
-- Applications sent to employers and decisionmakers over SMS
-
-- Decision makers review and filter applications, content, and multimedia quickly
-
-- Employers and executives can log into a self-service approval request portal 24X7
-
-- Approvers, and managers can track the progress of every approval request​
-
-- Approvers can easily review and approve requests quickly from their phones anywhere in the worl​
-
-- Allows us to find the right Elsa!
+•	Applications sent to employers and decisionmakers over SMS
+•	Decision makers review and filter applications, content, and multimedia quickly
+•	Employers and executives can log into a self-service approval request portal 24X7
+•	Approvers and managers can track the progress of every approval request
+•	Approvers can easily review and approve requests quickly from their phones anywhere in the world
+•	Allows us to find the right Elsa!
 
 ## Brunch + Babel/ES6
 
